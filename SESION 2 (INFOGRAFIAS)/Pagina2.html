@@ -1,0 +1,96 @@
+<html>
+    <head>
+    <title>CSS ANIMATION</title>
+    <style type="text/css">
+        *{
+            text-align: center;
+            margin:2%;
+            padding:0;
+            font-family:"Century Gothic";}
+body{background-color: skyblue;}
+h1{
+    color:rgba(0, 0, 255, 0);
+    font-size: 40px;
+    animation-name: texto;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes texto{
+from{
+    
+    color:rgba(255, 0, 0, 0);
+}
+to{
+    
+    color:rgba(0, 0, 255, 1);
+}
+}
+
+p{
+    color:rgba(0, 0, 0, 0);
+    animation-name: parrafo;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay:3s;
+    animation-fill-mode: forwards;
+}
+p:nth-of-type(2){
+    animation-delay:7s;
+}
+@keyframes parrafo{
+    from{
+        margin-left: 100%;
+        width: 400%;
+        color:rgba(255, 0, 0, 0);
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+        color:blueviolet;
+    }
+}
+img{
+    opacity: 0;
+    border-radius: 20%;
+    animation-name: foto;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.1s;
+}
+img:first-of-type{
+    animation-delay: 0.1s;
+}
+img:nth-of-type(2){
+    animation-delay: 6s;
+}
+
+@keyframes foto{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+</style>
+</head>
+<body>
+    <img src="img/img2.jpg"></image>
+    <h1> SAM ALTMAN</h1>
+    <p>Samuel Harris Altman (Chicago, Illinois; 22 de abril de 1985), conocido como Sam Altman, es un empresario, inversionista, programador y bloguero estadounidense.[2] Es director ejecutivo de OpenAI y expresidente de Y Combinator, y se le considera una de las figuras principales en el desarrollo de la inteligencia artificial.[3][4][5][6]
+
+Su patrimonio neto actual es de 2100 millones de dólares, de acuerdo con Forbes.[7
+    </p>
+    <img src="img/img3.jpeg">
+    <p>Fue director ejecutivo de Reddit durante ocho días en 2014 después de la renuncia del director ejecutivo Yishan Wong.[30] Anunció el regreso de Steve Huffman como director ejecutivo el 10 de julio de 2015.[31
+
+    </p>
+</body>
+    <h1>ANIMACION 1</h1>
+    <a href="/SESION 2 (INFOGRAFIAS)/index.html">Atras</a>
+</html>
